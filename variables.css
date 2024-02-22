@@ -1,0 +1,30 @@
+:root {
+    /* colors */
+    --c-white: #ffffff;
+    --c-black: #000000;
+    --c-dark: #3f3f3f;
+    --c-grey: #666;
+    --border-input: solid 1px #ebebeb;
+    /* background */
+    --bg-white: var(--c-white);
+    --bg-dark: var(--c-dark);
+    --bg-grey: #ebebeb;
+    --bg-black: var(--c-black);
+    /* font-size */
+    --h1: 40px;
+    --h2: 30px;
+    --h3: 20px;
+    --cta-size: 16px;
+    --p-size-std: 14px;
+    --p-size-l: 18px;
+    --p-size-m: 16px;
+    --p-size-s: 12px;
+    /* font-weight */
+    --weight-l: 300;
+    --weight-r: 400;
+    --weight-b: 700;
+    /* transition */
+    --trans-slow: 0.6s ease-in-out;
+    --trans-normal: 0.4s ease-in-out;
+    --trans-fast: 0.2s ease-in-out;
+}
