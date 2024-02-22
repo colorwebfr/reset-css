@@ -1,0 +1,164 @@
+/* init utility for this theme */
+h1 {
+    font-size: var(--h1);
+}
+
+h2 {
+    font-size: var(--h2);
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: var(--h3);
+}
+
+.size-std {
+    font-size: var(--p-size-std);
+}
+
+.h1 {
+    font-size: var(--h1);
+}
+
+.h2 {
+    font-size: var(--h2);
+}
+
+.h3 {
+    font-size: var(--h3);
+}
+
+.c-white {
+    color: var(--c-white);
+}
+
+.c-black {
+    color: var(--c-black);
+}
+
+.c-dark {
+    color: var(--c-dark);
+}
+
+.c-grey {
+    color: var(--c-grey);
+}
+
+.bg-white {
+    background: var(--bg-white);
+}
+
+.bg-dark {
+    background: var(--bg-dark);
+}
+
+.bg-grey {
+    background: var(--bg-grey);
+}
+
+.bg-black {
+    background: var(--bg-black);
+}
+
+.weight-l {
+    font-weight: var(--weight-l);
+}
+
+.weight-r {
+    font-weight: var(--weight-r);
+}
+
+.weight-b {
+    font-weight: var(--weight-b);
+}
+
+.cta-size {
+    font-size: var(--cta-size);
+}
+
+.pt-10 {
+    padding-top: 6rem;
+}
+
+.pb-10 {
+    padding-bottom: 6rem;
+}
+
+.grid .grid-c-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+}
+
+.grid .grid-c-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.grid .grid-c-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 0px 15px;
+    min-height: 40px;
+    border-radius: 5px;
+    border: var(--border-input);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}
+
+.btn-cta {
+    background-color: var(--c-red);
+    font-family: var(--f-roboto);
+    color: var(--c-white);
+    font-weight: var(--weight-r);
+    font-size: var(--cta-size);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    min-width: 180px;
+    text-align: center;
+    border: solid 1px var(--c-red);
+    transition: var(--trans-slow);
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: initial;
+
+    &:hover {
+        background-color: var(--c-white);
+        color: var(--c-red);
+        border-color: var(--c-grey);
+    }
+}
+
+.img-fit-cover {
+    position: relative;
+    min-height: 100px;
+    overflow: hidden;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
